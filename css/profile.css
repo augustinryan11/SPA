@@ -1,0 +1,11 @@
+.profile-box {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 3px solid #FF6347;
+    border-radius: 5px;
+  }

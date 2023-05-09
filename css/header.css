@@ -1,0 +1,42 @@
+#nav {
+  background-color: #524f4f;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+#nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+#nav a:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+#nav .logo {
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: auto; /* This will push the menu to the right */
+}
+
+#nav .menu {
+  display: flex;
+  align-items: center;
+}
+
+#nav .menu a:last-child {
+  margin-right: 0;
+}
+
+#nav .menu a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
